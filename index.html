@@ -1,83 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Vijeth K Gowda - Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
+  <!-- Header -->
   <header>
-    <div class="contact">
-      <span><i class="fas fa-envelope"></i> vijethgowdaec120@gmail.com</span>
-      <span><i class="fas fa-phone"></i> +91 9902233112</span>
-      <span><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/vijethkgowda" target="_blank">Vijeth K Gowda</a></span>
+    <h1>Vijeth K Gowda</h1>
+    <div class="contact-info">
+      <p><i class="fas fa-envelope"></i> vkgowda6676@gmail.com</p>
+      <p><i class="fas fa-phone"></i> +91 9686532696</p>
+      <p><i class="fab fa-linkedin"></i> 
+        <a href="https://www.linkedin.com/in/vijeth-k-gowda" target="_blank">Vijeth K Gowda</a>
+      </p>
     </div>
   </header>
 
-  <section class="intro">
-    <h1>Vijeth K Gowda</h1>
-    <p>Electronics & Communication Engineering Graduate | Developer | PCB Designer</p>
-  </section>
-
+  <!-- About Section -->
   <section class="about">
     <h2>About Me</h2>
     <div class="about-content">
-      <img src="dummy-profile.jpg" alt="Profile Picture" class="profile-pic" />
+      <img src="dummy-profile.jpg" alt="Profile Picture">
       <p>
-        I’m a final year ECE student passionate about technology, innovation, and creativity. I've worked on IoT, web development, and embedded systems. I have experience with ESP32, Raspberry Pi, KiCad, and frontend design. My goal is to enter the IT industry and contribute to impactful projects.
+        A dedicated and passionate Electronics and Communication Engineering student from St. Joseph Engineering College, committed to academic excellence and continuous learning. I bring strong technical knowledge and excellent communication skills, aiming to contribute effectively in team-driven environments and forward-thinking companies.
       </p>
     </div>
   </section>
 
-  <section class="projects">
-    <h2>Projects</h2>
-    
-    <div class="project">
-      <h3>Smart Reading Table</h3>
-      <img src="dummy-project1.jpg" alt="Smart Reading Table" />
-      <p>This project uses Raspberry Pi, Arduino, and ESP32 to create a smart table for reading and automation. It includes features such as adjustable lighting, automatic reminders, and intelligent usage tracking. The system integrates sensors, real-time clocks, and a simple interface to encourage effective reading habits. Our aim was to blend technology with daily productivity tools in a compact manner, offering comfort and efficiency for students and professionals alike.</p>
-    </div>
-
-    <div class="project">
-      <h3>IoT Timer & Water Monitoring</h3>
-      <img src="dummy-project2.jpg" alt="IoT Timer" />
-      <p>This IoT-based project automates light control and monitors water levels using ESP32 and cloud integration. We used a web interface for remote control and notification alerts. It was designed during my internship at Kakunje Software, where I handled both the embedded code and frontend. The project can be extended to include temperature and humidity monitoring for smart agriculture or domestic automation purposes.</p>
-    </div>
-  </section>
-
+  <!-- Skills Section -->
   <section class="skills">
-    <h2>Skills</h2>
+    <h2>Technical Skills</h2>
     <ul>
-      <li>HTML, CSS, JavaScript</li>
-      <li>Arduino & ESP32 Programming</li>
-      <li>KiCad PCB Design</li>
-      <li>Raspberry Pi Applications</li>
-      <li>C and C++ Programming</li>
-      <li>Frontend Web Design</li>
+      <li>Basics of C, Python, and Verilog HDL</li>
+      <li>Multisim, Keil Microvision 5, MATLAB, Cadence tool</li>
+      <li>Web Designing (HTML, CSS, Basic JS)</li>
     </ul>
   </section>
 
-  <section class="education">
-    <h2>Education</h2>
-    <p><strong>B.E. in Electronics and Communication</strong><br/>St. Joseph Engineering College, Mangalore<br/>2021 – 2025</p>
-  </section>
+  <!-- Projects Section -->
+  <section class="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <img src="project1.jpg" alt="Smart HR Monitor">
+      <h3>Smart Heart Rate and Blood Oxygen Monitoring System</h3>
+      <p>
+        This project tracks real-time heart rate and blood oxygen levels using sensors. The system is built using embedded modules, displays data visually and stores history for further analysis. Especially beneficial for those with cardiovascular issues, it enhances user wellness through continuous and accurate health monitoring, proving essential in remote and rural health applications.
+      </p>
+    </div>
 
-  <section class="activities">
-    <h2>Activities</h2>
-    <div class="activity-images">
-      <img src="activity1.jpg" alt="Activity 1" />
-      <img src="activity2.jpg" alt="Activity 2" />
+    <div class="project">
+      <img src="project2.jpg" alt="Home Automation">
+      <h3>Home Automation System</h3>
+      <p>
+        Designed a Bluetooth-based home automation system using Arduino Uno. The system allows users to control lights and appliances via a custom mobile APK, improving accessibility and reducing power usage. Demonstrates my knowledge in wireless communication, microcontroller interfacing, and user experience-centric system design.
+      </p>
+    </div>
+
+    <div class="project">
+      <img src="project3.jpg" alt="Smart Blind Stick">
+      <h3>Smart Blind Stick</h3>
+      <p>
+        Developed a smart walking stick to aid visually impaired individuals. Features include obstacle detection via ultrasonic sensor and auditory feedback through a buzzer, all controlled by an Arduino. It emphasizes embedded systems, human-centered design, and real-world problem solving in assistive technology.
+      </p>
     </div>
   </section>
 
+  <!-- Certifications Section -->
+  <section class="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li>CCNAv7: Introduction to Networks - Cisco</li>
+      <li>Digital Signal Processing - Coursera</li>
+      <li>MATLAB Simulink - MathWorks</li>
+      <li>MATLAB Simscape - MathWorks</li>
+    </ul>
+  </section>
+
+  <!-- Education Section -->
+  <section class="education">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>Bachelor’s in ECE</strong> – St. Joseph Engineering College, CGPA: 8.7 (2021–2025)</li>
+      <li><strong>PCMB</strong> – Vivekananda PU College, 86.7% (2019–2021)</li>
+      <li><strong>SSLC</strong> – Balavikas English Medium School, 87.6% (2018–2019)</li>
+    </ul>
+  </section>
+
+  <!-- Activities Section -->
+  <section class="activities">
+    <h2>Activities & Responsibilities</h2>
+    <ul>
+      <li>Vice President – Prodigi Student Association, ECE Dept, SJEC</li>
+      <li>Treasurer – Sig Maths Association, Mathematics Dept, SJEC (2023–2024)</li>
+    </ul>
+    <div class="activity-images">
+      <img src="activity1.jpg" alt="Activity Image 1">
+      <img src="activity2.jpg" alt="Activity Image 2">
+    </div>
+  </section>
+
+  <!-- Footer -->
   <footer>
-    <h3>Contact Info</h3>
-    <p>Email: vijethgowdaec120@gmail.com | Phone: +91 9902233112 | LinkedIn: <a href="https://linkedin.com/in/vijethkgowda">Vijeth K Gowda</a></p>
+    <h3>Contact Information</h3>
+    <p>Email: vkgowda6676@gmail.com</p>
+    <p>Phone: +91 9686532696</p>
+    <p>Location: Mani, Puttur</p>
   </footer>
 
 </body>
