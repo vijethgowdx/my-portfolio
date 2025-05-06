@@ -5,90 +5,80 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Vijeth K Gowda - Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
   <header>
-    <h1>Vijeth K Gowda</h1>
-    <p>Aspiring Electronics and Communication Engineer</p>
-    <p><a href="mailto:vkgowda6676@gmail.com">vkgowda6676@gmail.com</a> | +91 9686532696</p>
-    <p><a href="https://www.linkedin.com/in/vijeth-k-gowda" target="_blank">LinkedIn</a></p>
+    <div class="contact">
+      <span><i class="fas fa-envelope"></i> vijethgowdaec120@gmail.com</span>
+      <span><i class="fas fa-phone"></i> +91 9902233112</span>
+      <span><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/vijethkgowda" target="_blank">Vijeth K Gowda</a></span>
+    </div>
   </header>
 
-  <section id="about">
+  <section class="intro">
+    <h1>Vijeth K Gowda</h1>
+    <p>Electronics & Communication Engineering Graduate | Developer | PCB Designer</p>
+  </section>
+
+  <section class="about">
     <h2>About Me</h2>
-    <p>
-      A dedicated and passionate third-year Electronics and Communication Engineering student committed to academic excellence and persistent learning. Possessing strong technical skills and excellent communication abilities, I effectively convey ideas and collaborate with diverse teams. Seeking a dynamic role in a forward-thinking company where I can contribute to inventive ventures, accomplishing self and organisational development.
-    </p>
+    <div class="about-content">
+      <img src="dummy-profile.jpg" alt="Profile Picture" class="profile-pic" />
+      <p>
+        I’m a final year ECE student passionate about technology, innovation, and creativity. I've worked on IoT, web development, and embedded systems. I have experience with ESP32, Raspberry Pi, KiCad, and frontend design. My goal is to enter the IT industry and contribute to impactful projects.
+      </p>
+    </div>
   </section>
 
-  <section id="education">
-    <h2>Education</h2>
-    <ul>
-      <li><strong>Bachelor's Degree in ECE</strong>, SJEC, Mangalore – CGPA: 8.7 (2021–2025)</li>
-      <li><strong>PUC (PCMB)</strong>, Vivekananda PU College, Puttur – 86.7%</li>
-      <li><strong>SSLC</strong>, Balavikas School, Mani – 87.6%</li>
-    </ul>
-  </section>
-
-  <section id="projects">
+  <section class="projects">
     <h2>Projects</h2>
-
+    
     <div class="project">
-      <img src="images/heart_monitor.jpg" alt="Heart Monitor">
-      <h3>Smart Heart Rate & Oxygen Monitor</h3>
-      <p>Tracks heart rate and SpO2 using sensors with real-time display, helping people with cardiovascular conditions.</p>
+      <h3>Smart Reading Table</h3>
+      <img src="dummy-project1.jpg" alt="Smart Reading Table" />
+      <p>This project uses Raspberry Pi, Arduino, and ESP32 to create a smart table for reading and automation. It includes features such as adjustable lighting, automatic reminders, and intelligent usage tracking. The system integrates sensors, real-time clocks, and a simple interface to encourage effective reading habits. Our aim was to blend technology with daily productivity tools in a compact manner, offering comfort and efficiency for students and professionals alike.</p>
     </div>
 
     <div class="project">
-      <img src="images/home_automation.jpg" alt="Home Automation">
-      <h3>Home Automation</h3>
-      <p>Built using Arduino and Bluetooth module to control home devices via an APK app.</p>
-    </div>
-
-    <div class="project">
-      <img src="images/blind_stick.jpg" alt="Smart Blind Stick">
-      <h3>Smart Blind Stick</h3>
-      <p>Uses ultrasonic sensor and buzzer to detect obstacles and alert visually impaired users, controlled by Arduino Uno.</p>
+      <h3>IoT Timer & Water Monitoring</h3>
+      <img src="dummy-project2.jpg" alt="IoT Timer" />
+      <p>This IoT-based project automates light control and monitors water levels using ESP32 and cloud integration. We used a web interface for remote control and notification alerts. It was designed during my internship at Kakunje Software, where I handled both the embedded code and frontend. The project can be extended to include temperature and humidity monitoring for smart agriculture or domestic automation purposes.</p>
     </div>
   </section>
 
-  <section id="certifications">
-    <h2>Certifications</h2>
+  <section class="skills">
+    <h2>Skills</h2>
     <ul>
-      <li>CCNAv7: Introduction to Networks – Cisco</li>
-      <li>Digital Signal Processing – Coursera</li>
-      <li>MATLAB Simulink & Simscape – MathWorks</li>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Arduino & ESP32 Programming</li>
+      <li>KiCad PCB Design</li>
+      <li>Raspberry Pi Applications</li>
+      <li>C and C++ Programming</li>
+      <li>Frontend Web Design</li>
     </ul>
   </section>
 
-  <section id="skills">
-    <h2>Technical Skills</h2>
-    <ul>
-      <li>C, Python, Verilog HDL</li>
-      <li>Multisim, Keil uVision, MATLAB, Cadence</li>
-    </ul>
+  <section class="education">
+    <h2>Education</h2>
+    <p><strong>B.E. in Electronics and Communication</strong><br/>St. Joseph Engineering College, Mangalore<br/>2021 – 2025</p>
   </section>
 
-  <section id="soft-skills">
-    <h2>Soft Skills</h2>
-    <ul>
-      <li>Communication & Interpersonal Skills</li>
-      <li>Teamwork & Independent Work</li>
-      <li>Time Management</li>
-      <li>Negotiation Skills</li>
-    </ul>
-  </section>
-
-  <section id="activities">
-    <h2>Leadership Roles</h2>
-    <ul>
-      <li>Vice President – Prodigi Association, ECE Dept., SJEC</li>
-      <li>Treasurer – SIG Maths Association, SJEC</li>
-    </ul>
+  <section class="activities">
+    <h2>Activities</h2>
+    <div class="activity-images">
+      <img src="activity1.jpg" alt="Activity 1" />
+      <img src="activity2.jpg" alt="Activity 2" />
+    </div>
   </section>
 
   <footer>
-    <p>© 2025 Vijeth K Gowda</p>
+    <h3>Contact Info</h3>
+    <p>Email: vijethgowdaec120@gmail.com | Phone: +91 9902233112 | LinkedIn: <a href="https://linkedin.com/in/vijethkgowda">Vijeth K Gowda</a></p>
   </footer>
+
 </body>
 </html>
