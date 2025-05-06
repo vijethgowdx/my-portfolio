@@ -1,53 +1,92 @@
 body {
-  font-family: Arial, sans-serif;
-  background: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  background-color: #FFFFFF;
   color: #333333;
   margin: 0;
   padding: 0;
-  line-height: 1.6;
 }
 
 header {
-  background: #007BFF;
-  color: white;
-  padding: 2rem;
-  text-align: center;
+  background: #F5F5F5;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
 }
 
-header a {
-  color: #f0f0f0;
+.contact {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 14px;
+}
+
+.contact i {
+  margin-right: 5px;
+}
+
+.contact a {
   text-decoration: none;
-  margin: 0 5px;
-}
-
-h2 {
   color: #007BFF;
-  border-bottom: 2px solid #F5F5F5;
-  padding-bottom: 0.5rem;
 }
 
-section {
-  padding: 2rem;
+.intro {
+  text-align: center;
+  padding: 40px 20px;
   background-color: #F5F5F5;
-  margin-bottom: 1rem;
+}
+
+.about {
+  padding: 40px 20px;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-pic {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.projects {
+  background-color: #F5F5F5;
+  padding: 40px 20px;
 }
 
 .project {
-  background: white;
-  padding: 1rem;
-  border: 1px solid #ddd;
-  margin-top: 1rem;
+  margin-bottom: 40px;
 }
 
 .project img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 5px;
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 10px 0;
+}
+
+.skills, .education, .activities, footer {
+  padding: 40px 20px;
+}
+
+.skills ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.activity-images {
+  display: flex;
+  gap: 20px;
+}
+
+.activity-images img {
+  width: 48%;
+  border: 1px solid #ccc;
 }
 
 footer {
+  background: #F5F5F5;
   text-align: center;
-  padding: 1rem;
-  background: #007BFF;
-  color: white;
+  margin-top: 40px;
+  font-size: 14px;
 }
