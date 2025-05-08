@@ -28,8 +28,13 @@ header {
   margin-right: 8px;
 }
 
-h1, h2, h3 {
+h1, h3 {
   color: #007BFF;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: black;
   margin-bottom: 10px;
 }
 
