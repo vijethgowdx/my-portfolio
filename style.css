@@ -61,14 +61,33 @@ section {
 }
 
 .projects .project {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
-.projects .project img {
-  width: 100%;
-  max-width: 500px;
+.project-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.project-text {
+  flex: 1;
+}
+
+.project-content img {
+  width: 300px;
+  height: auto;
   border-radius: 8px;
-  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.highlight {
+  background-color: #007BFF;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 4px;
 }
 
 .activity-images {
