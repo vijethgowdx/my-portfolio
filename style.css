@@ -22,7 +22,9 @@ header {
   gap: 30px;
   margin-top: 10px;
 }
-
+.photo{
+  width:200px;
+}
 .contact-info p i {
   margin-right: 8px;
 }
